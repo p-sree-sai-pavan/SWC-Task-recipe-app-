@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🍳 Recipe Finder</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="config.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <h1 class="logo">🍳 Recipe Finder</h1>
+    <div class="search-container">
+      <input id="searchBar" type="text" placeholder="Enter dish name" />
+      <button id="searchButton">Search</button>
+      <button id="darkModeToggle">🌙 Dark Mode</button>
+    </div>
+    <div class="nav-actions">
+      <button id="favoritesBtn">💖 Favorites <span id="favoritesCount">0</span></button>
+      <button id="shoppingListBtn">🛒 Shopping <span id="shoppingCount">0</span></button>
+    </div>
+  </header>
+
+  <nav class="category-nav">
+    <button class="category-btn active" data-category="all">All</button>
+    <button class="category-btn" data-category="Breakfast">Breakfast</button>
+    <button class="category-btn" data-category="Beef">Beef</button>
+    <button class="category-btn" data-category="Chicken">Chicken</button>
+    <button class="category-btn" data-category="Dessert">Dessert</button>
+    <button class="category-btn" data-category="Seafood">Seafood</button>
+  </nav>
+
+  <main class="main">
+
+    <div id="homeView">
+      <h2>Recipes ></h2>
+      <section id="recipesGrid" class="recipes-grid"></section>
+    </div>
+
+
+    <div id="favoritesView" style="display:none;">
+      <h2>Favorites ></h2>
+      <section id="favoritesGrid" class="recipes-grid"></section>
+    </div>
+
+
+    <div id="shoppingListView" style="display:none;">
+      <h2>Shopping List ></h2>
+      <button id="clearShoppingList">Clear All</button>
+      <button id="exportShoppingList">Export</button>
+      <section id="shoppingListContent"></section>
+    </div>
+  </main>
+
+
+  <div id="recipeModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImage" src="" alt="">
+      <h2 id="modalTitle"></h2>
+      <p id="modalCategory"></p>
+      <p id="modalArea"></p>
+      <h3>Ingredients:</h3>
+      <ul id="modalIngredients"></ul>
+      <h3>Instructions:</h3>
+      <p id="modalInstructions"></p>
+      <button id="saveFavorite">💖 Save to Favorites</button>
+      <button id="addToShoppingList">🛒 Add to Shopping List</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
