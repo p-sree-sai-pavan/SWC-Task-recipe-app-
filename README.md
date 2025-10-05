@@ -1,5 +1,6 @@
 # Recipe Finder 🍳
 
+link of my website: https://p-sree-sai-pavan.github.io/SWC-Task-recipe-app-/
 A lightweight client-side recipe discovery app that uses TheMealDB to browse, search, and save recipes. It's built with plain HTML, CSS and JavaScript so you can open [index.html](index.html) in a browser and start using it.
 
 ## Files
