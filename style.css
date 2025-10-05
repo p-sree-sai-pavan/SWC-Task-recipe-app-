@@ -150,44 +150,6 @@ body {
   cursor: pointer;
 }
 
-#favoritesBtn {
-  padding: 8px;
-  border-radius: 30px;
-}
-
-#favoritesBtn:hover {
-  transform: scale(1.05);
-  box-shadow: 2px 2px 6px black;
-}
-
-#shoppingListBtn {
-  padding: 8px;
-  border-radius: 30px;
-}
-
-#shoppingListBtn:hover {
-  transform: scale(1.05);
-  box-shadow: 2px 2px 6px black;
-}
-#saveFavorite {
-  padding: 8px;
-  border-radius: 30px;
-}
-
-#saveFavorite:hover {
-  transform: scale(1.05);
-  box-shadow: 2px 2px 6px black;
-}
-#addToShoppingList {
-  padding: 8px;
-  border-radius: 30px;
-}
-
-#addToShoppingList:hover {
-  transform: scale(1.05);
-  box-shadow: 2px 2px 6px black;
-}
-
 .dark-mode {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -343,43 +305,5 @@ body {
     right: 15px;
     font-size: 24px;
     cursor: pointer;
-  }
-
-  #favoritesBtn {
-    padding: 8px;
-    border-radius: 30px;
-  }
-
-  #favoritesBtn:hover {
-    transform: scale(1.05);
-    box-shadow: 2px 2px 6px #fff4e3;;
-  }
-
-  #shoppingListBtn {
-    padding: 8px;
-    border-radius: 30px;
-  }
-
-  #shoppingListBtn:hover {
-    transform: scale(1.05);
-    box-shadow: 2px 2px 6px #fff4e3;
-  }
-  #saveFavorite {
-    padding: 8px;
-    border-radius: 30px;
-  }
-
-  #saveFavorite:hover {
-    transform: scale(1.05);
-    box-shadow: 2px 2px 6px #fff4e3;
-  }
-  #addToShoppingList {
-    padding: 8px;
-    border-radius: 30px;
-  }
-
-  #addToShoppingList:hover {
-    transform: scale(1.05);
-    box-shadow: 2px 2px 6px #fff4e3;
   }
 }
