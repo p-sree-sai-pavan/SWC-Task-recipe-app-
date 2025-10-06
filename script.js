@@ -1,7 +1,4 @@
-const CONFIG = {
-  BASE_URL: 'https://www.themealdb.com/api/json/v1/1',
-  DEFAULT_RECIPE_COUNT: 12
-};
+const URL = 'https://www.themealdb.com/api/json/v1/1';
 
 const searchBar = document.getElementById('searchBar');
 const searchButton = document.getElementById('searchButton');
@@ -56,8 +53,8 @@ async function loadRecipes(category) {
   recipesGrid.innerHTML = '<p>Loading...</p>';
   let url = '';
 
-  if (category === 'all') url = `${CONFIG.BASE_URL}/search.php?s=`;
-  else url = `${CONFIG.BASE_URL}/filter.php?c=${category}`;
+  if (category === 'all') url = `${URL}/search.php?s=`;
+  else url = `${URL}/filter.php?c=${category}`;
 
   try {
     const res = await fetch(url);
@@ -87,7 +84,7 @@ async function loadRecipes(category) {
 async function searchRecipes(query) {
   if (!query) return;
   recipesGrid.innerHTML = '<p>Searching...</p>';
-  const url = `${CONFIG.BASE_URL}/search.php?s=${encodeURIComponent(query)}`;
+  const url = `${URL}/search.php?s=${encodeURIComponent(query)}`;
 
   try {
     const res = await fetch(url);
@@ -120,7 +117,7 @@ async function searchRecipes(query) {
 
 // ✅ Show recipe details in modal
 async function showRecipeDetails(id) {
-  const url = `${CONFIG.BASE_URL}/lookup.php?i=${id}`;
+  const url = `${URL}/lookup.php?i=${id}`;
   try {
     const res = await fetch(url);
     const data = await res.json();

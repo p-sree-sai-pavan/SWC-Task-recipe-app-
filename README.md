@@ -8,7 +8,6 @@ A lightweight client-side recipe discovery app that uses TheMealDB to browse, se
 ## Files
 - [index.html](index.html) — App shell and UI.
 - [style.css](style.css) — Styling and dark-mode rules.
-- [config.js](config.js) — API configuration (BASE_URL, DEFAULT_RECIPE_COUNT).
 - [script.js](script.js) — Main app logic and state.
 
 ## Features
@@ -20,9 +19,8 @@ A lightweight client-side recipe discovery app that uses TheMealDB to browse, se
 - Dark mode toggle and simple responsive layout.
 
 ## Quick Start
-1. Open [config.js](config.js) and confirm the API BASE_URL is correct for TheMealDB.
-2. Open [index.html](index.html) in your web browser.
-3. Use the search bar or category buttons to load recipes.
+1. Open [index.html](index.html) in your web browser.
+2. Use the search bar or category buttons to load recipes.
 
 ## Important Script APIs
 The app behavior is implemented in [script.js](script.js). Key functions and handlers:
