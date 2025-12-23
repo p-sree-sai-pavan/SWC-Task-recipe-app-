@@ -1,50 +1,166 @@
-# Recipe Finder 🍳
+<p align="center">
+  <img src="https://img.icons8.com/fluency/96/000000/chef-hat.png" alt="Recipe Finder Logo"/>
+</p>
 
-link of my website: https://p-sree-sai-pavan.github.io/SWC-Task-recipe-app-/
+<h1 align="center">🍳 Recipe Finder</h1>
 
+<p align="center">
+  <strong>Discover, Search & Save Your Favorite Recipes</strong>
+</p>
 
-A lightweight client-side recipe discovery app that uses TheMealDB to browse, search, and save recipes. It's built with plain HTML, CSS and JavaScript so you can open [index.html](index.html) in a browser and start using it.
+<p align="center">
+  <a href="https://p-sree-sai-pavan.github.io/SWC-Task-recipe-app-/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Now-FF6B6B?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/Built_With-HTML_CSS_JS-blue?style=for-the-badge" alt="Tech Stack"/>
+</p>
 
-## Files
-- [index.html](index.html) — App shell and UI.
-- [style.css](style.css) — Styling and dark-mode rules.
-- [script.js](script.js) — Main app logic and state.
+---
 
-## Features
-- Browse recipes by category (All, Breakfast, Beef, Chicken, Dessert, Seafood).
-- Search recipes by name.
-- View recipe details (image, ingredients, instructions).
-- Save and remove favorites (persisted to localStorage).
-- Add ingredients to a shopping list, mark items as completed, export or clear the list.
-- Dark mode toggle and simple responsive layout.
+## 📖 About The Project
 
-## Quick Start
-1. Open [index.html](index.html) in your web browser.
-2. Use the search bar or category buttons to load recipes.
+**Recipe Finder** is a sleek, responsive web application that helps you discover delicious recipes from around the world. Powered by [TheMealDB API](https://www.themealdb.com/), it offers a seamless experience to browse, search, and explore recipes with detailed ingredients and cooking instructions.
 
-## Important Script APIs
-The app behavior is implemented in [script.js](script.js). Key functions and handlers:
-- [`loadRecipes`](script.js) — load recipes by category.
-- [`searchRecipes`](script.js) — search for recipes by query.
-- [`showRecipeDetails`](script.js) — fetch and display recipe details in the modal.
-- [`saveFavoriteBtn`](script.js) — favorites toggle handler.
-- [`addToShoppingListBtn`](script.js) — add current recipe ingredients to shopping list.
-- [`loadFavorites`](script.js) — render favorites view.
-- [`loadShoppingList`](script.js) — render shopping list.
-- [`toggleShoppingItem`](script.js) — toggle shopping item completion.
-- [`removeShoppingItem`](script.js) — remove item from shopping list.
-- [`updateCounters`](script.js) — refresh favorites/shopping counters.
-- [`showView`](script.js) — switch between Home / Favorites / Shopping views.
+> 💡 **No installation required!** Simply open the app in your browser and start cooking.
 
-(Open any of the above names to inspect the implementation in [script.js](script.js).)
+---
 
-## Persistence
-Favorites, shoppingList and searchHistory are persisted in localStorage so your data remains between sessions.
+## ✨ Features
 
-## Notes & Tips
-- TheMealDB may return different fields for filtered vs. full recipe endpoints; the app uses lookup calls to populate full ingredient lists.
-- If a recipe modal shows incomplete ingredient text, check the returned `strIngredientN` / `strMeasureN` fields in [script.js](script.js).
-- For styling tweaks, edit [style.css](style.css).
+| Feature | Description |
+|---------|-------------|
+| 🔍 **Smart Search** | Search recipes instantly by dish name |
+| 📂 **Category Filters** | Browse by categories: Breakfast, Beef, Chicken, Dessert, Seafood |
+| 📋 **Detailed Recipes** | View complete ingredient lists and step-by-step instructions |
+| 🌙 **Dark Mode** | Toggle between light and dark themes for comfortable viewing |
+| 📱 **Responsive Design** | Works beautifully on desktop, tablet, and mobile devices |
+| ⚡ **Fast & Lightweight** | Pure vanilla JavaScript — no heavy frameworks |
 
-## License
-MIT — feel free to reuse and adapt for learning and development.
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/TheMealDB-API-FF6B6B?style=for-the-badge" alt="TheMealDB API"/>
+</p>
+
+---
+
+## 🚀 Quick Start
+
+### Option 1: Live Demo
+👉 **[Click here to use the app now!](https://p-sree-sai-pavan.github.io/SWC-Task-recipe-app-/)**
+
+### Option 2: Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/p-sree-sai-pavan/SWC-Task-recipe-app-.git
+
+# Navigate to the project folder
+cd SWC-Task-recipe-app-
+
+# Open in your browser
+# Simply double-click index.html or use a live server
+```
+
+---
+
+## 📁 Project Structure
+
+```
+📦 Recipe-Finder
+ ┣ 📄 index.html      → Main HTML structure & UI layout
+ ┣ 📄 style.css       → Styling, themes & responsive design
+ ┣ 📄 script.js       → Core logic, API calls & interactivity
+ ┗ 📄 README.md       → Project documentation
+```
+
+---
+
+## 🎯 How It Works
+
+### 1️⃣ **Browse Recipes**
+Click on category buttons (All, Breakfast, Beef, etc.) to filter recipes by type.
+
+### 2️⃣ **Search for a Dish**
+Type a dish name in the search bar and press Enter or click the Search button.
+
+### 3️⃣ **View Recipe Details**
+Click on any recipe card to open a modal with:
+- 🖼️ High-quality dish image
+- 📝 Complete ingredient list with measurements
+- 📖 Step-by-step cooking instructions
+- 🌍 Category and cuisine information
+
+### 4️⃣ **Toggle Dark Mode**
+Click the 🌙 Dark Mode button to switch to a comfortable dark theme.
+
+---
+
+## 🔧 Core Functions
+
+| Function | Purpose |
+|----------|---------|
+| `loadRecipes(category)` | Fetches and displays recipes by category |
+| `searchRecipes(query)` | Searches recipes by dish name |
+| `showRecipeDetails(id)` | Opens modal with full recipe information |
+
+---
+
+## 🎨 Color Palette
+
+| Theme | Background | Accent | Text |
+|-------|------------|--------|------|
+| ☀️ Light | `#FFF4E3` | `#FF6B6B` | `#333333` |
+| 🌙 Dark | `#121212` | `#425B89` | `#F8F8F8` |
+
+---
+
+## 📡 API Reference
+
+This project uses the free **[TheMealDB API](https://www.themealdb.com/api.php)**:
+
+| Endpoint | Description |
+|----------|-------------|
+| `/search.php?s=` | Search by meal name |
+| `/filter.php?c=` | Filter by category |
+| `/lookup.php?i=` | Get full meal details by ID |
+
+---
+
+## 🙏 Acknowledgements
+
+- 🍴 [TheMealDB](https://www.themealdb.com/) — Free recipe API
+- 🎨 [Icons8](https://icons8.com/) — Beautiful icons
+- 💻 Built with ❤️ using vanilla HTML, CSS & JavaScript
+
+---
+
+## 👨‍💻 Author
+
+<p align="center">
+  <strong>P. Sree Sai Pavan</strong>
+  <br/>
+  <em>Frontend Developer</em>
+</p>
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute!
+
+---
+
+<p align="center">
+  <strong>⭐ If you found this useful, consider giving it a star! ⭐</strong>
+</p>
+
+<p align="center">
+  Made with 🧡 for food lovers everywhere
+</p>
