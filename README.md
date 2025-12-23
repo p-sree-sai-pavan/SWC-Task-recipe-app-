@@ -147,6 +147,16 @@ This project uses the free **[TheMealDB API](https://www.themealdb.com/api.php)*
   <strong>P. Sree Sai Pavan</strong>
   <br/>
   <em>Frontend Developer</em>
+  <br/><br/>
+  <a href="https://www.linkedin.com/in/sree-sai-pavan-pittala-61a284365">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/p-sree-sai-pavan">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://p-sree-sai-pavan.github.io/Portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  </a>
 </p>
 
 ---
